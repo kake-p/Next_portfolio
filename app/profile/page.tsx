@@ -5,8 +5,8 @@ import { Hero, Main, Foot } from '@/features/components/page/Profile'
 
 const Profile = () => {
   const { setPage } = useHeadStore();
-  document.body.classList.remove('top');
   useEffect(() => {
+    document.body.classList.remove('top');
     setPage('Profile');
     console.log('setPage');
   }, [setPage])

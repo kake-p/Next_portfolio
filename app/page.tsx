@@ -6,8 +6,8 @@ import { TopPage, Hero, Profile, Works, LatestPost} from '@/features/components/
 
 const Top = () => {
   const { setPage } = useHeadStore();
-  document.body.classList.add('top');
   useEffect(() => {
+    document.body.classList.add('top');
     setPage('Top');
     console.log('setPage');
   }, [setPage])

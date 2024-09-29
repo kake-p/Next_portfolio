@@ -4,8 +4,8 @@ import { useHeadStore } from '@/features/store';
 
 const Contact = () => {
   const { setPage } = useHeadStore();
-  document.body.classList.remove('top');
   useEffect(() => {
+    document.body.classList.remove('top');
     setPage('Contact');
     console.log('setPage');
   }, [setPage])

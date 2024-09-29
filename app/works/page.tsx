@@ -4,8 +4,8 @@ import { useHeadStore } from '@/features/store';
 
 const Work = () => {
   const { setPage } = useHeadStore();
-  document.body.classList.remove('top');
   useEffect(() => {
+    document.body.classList.remove('top');
     setPage('Works');
     console.log('setPage');
   }, [setPage])

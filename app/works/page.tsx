@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import { useHeadStore } from '@/features/store';
 
-const page = () => {
+const Work = () => {
   const { setPage } = useHeadStore();
   document.body.classList.remove('top');
   useEffect(() => {
@@ -16,5 +16,5 @@ const page = () => {
   )
 }
 
-export default page
+export default Work;
 

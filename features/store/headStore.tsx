@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 
 type State = {
-  curerntPage: string;
+  currentPage: string;
 };
 
 type Action = {

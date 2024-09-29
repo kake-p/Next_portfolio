@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,200" />
+        {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,200&display=optional" /> */}
         <TypekitLoader/>
       </head>
       <body className="font-garamond">

@@ -6,7 +6,7 @@ import { Hero, Main, Foot } from '@/features/components/page/Profile'
 const Profile = () => {
   const { setPage } = useHeadStore();
   useEffect(() => {
-    document.body.classList.remove('top');
+    document.body.classList.remove('black-bg');
     setPage('Profile');
     console.log('setPage');
   }, [setPage])

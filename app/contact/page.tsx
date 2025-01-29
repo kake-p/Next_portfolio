@@ -5,7 +5,7 @@ import { useHeadStore } from '@/features/store';
 const Contact = () => {
   const { setPage } = useHeadStore();
   useEffect(() => {
-    document.body.classList.remove('top');
+    document.body.classList.remove('black-bg');
     setPage('Contact');
     console.log('setPage');
   }, [setPage])

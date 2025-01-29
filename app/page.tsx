@@ -7,7 +7,7 @@ import { TopPage, Hero, Profile, Works, LatestPost} from '@/features/components/
 const Top = () => {
   const { setPage } = useHeadStore();
   useEffect(() => {
-    document.body.classList.add('top');
+    document.body.classList.add('black-bg');
     setPage('Top');
     console.log('setPage');
   }, [setPage])

@@ -18,7 +18,7 @@ const LatestPost = () => {
         </a>
       </div>
       <div className="flex flex-col">
-        <p className="self-center"><a href="">↑<br/>Back to Top</a></p>
+        <p className="self-center"><a href="#top_head">↑<br/>Back to Top</a></p>
         <p className="self-end">Last Updated: 2024/09/01</p>
       </div>
     </footer>

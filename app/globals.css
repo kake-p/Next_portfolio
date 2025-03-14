@@ -25,13 +25,16 @@ html.wf-active {
 }
 
 body {
-  color: black;
-  background: white;
-  /* font-family: "garamond-premier-pro", "a-otf-ryumin-pr6n", "aw-conqueror-didot", "tangerine", serif; */
+  color: #1E2327;
+  background: #FCFCFC;
+  font-family: "garamond-premier-pro", "a-otf-ryumin-pr6n", "aw-conqueror-didot", "tangerine", serif;
   font-size: 20px;
 }
+[lang="ja"] {
+  font-family: "yu-gothic-pr6n", "hiragino-kaku-gothic-pro", "meiryo";
+}
 .black-bg{
-  color: white;
+  color: #FCFCFC;
   background: black;
 }
 .heading{  

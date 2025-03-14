@@ -9,7 +9,6 @@ const Top = () => {
   useEffect(() => {
     document.body.classList.add('black-bg');
     setPage('Top');
-    console.log('setPage');
   }, [setPage])
   return (
     <>

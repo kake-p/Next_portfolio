@@ -8,13 +8,12 @@ const Profile = () => {
   useEffect(() => {
     document.body.classList.remove('black-bg');
     setPage('Profile');
-    console.log('setPage');
   }, [setPage])
   return (
     <>
       <Hero/>      
       <Main/>      
-      <Foot/>      
+      <Foot page={"prof"}/>      
     </>
   )
 };

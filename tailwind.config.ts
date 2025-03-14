@@ -1,3 +1,4 @@
+import {heroui} from '@heroui/theme';
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -5,6 +6,7 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./features/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -14,6 +16,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
+        yugothic: ['yu-gothic-pr6n'],
         garamond: ['garamond-premier-pro', 'serif'],
         ryumin: ['a-otf-ryumin-pr6n', 'serif'], 
         awConqueror: ['aw-conqueror-didot', 'serif'], 
@@ -21,6 +24,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [heroui()],
 };
 export default config;

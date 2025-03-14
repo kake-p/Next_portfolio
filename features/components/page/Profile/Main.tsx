@@ -34,7 +34,7 @@ const Main = () => {
       </div>
       </div>
 
-      <a href="" className="self-end mr-[2%]">and more... ＞＞</a>
+      <a href="https://www.wantedly.com/id/kazuki_makida" rel="noopener noreferrer" target="_blank" className="self-end mr-[2%]">and more... ＞＞</a>
     </section>
   )
 }
